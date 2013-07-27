@@ -1,0 +1,214 @@
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.style1 {
+	width:600px;
+	font-size: 16px;
+	color: #339933;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style2 {
+	width:600px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #339933;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #339933;
+	font-weight: bold;
+}
+.style4 { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium; 
+	color: #339933;
+	font-weight: bold; 
+}
+.style5{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #339933;
+	font-weight: bold;
+}
+.style6 {
+	width:600px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #339933;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style7 {
+	font-size: 16px;
+	color: #339933;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style8 {
+	font-size: 16px;
+	font-style:oblique;
+	color: #339933;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style9 {
+	font-size: 12px;
+	color: #339933;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.detail {
+	width:600px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #339933;
+}
+.shopping{
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:11px; 
+	color: #339933;
+	background-color:#E1E1E1;
+	width:100%;
+}
+.shopping2{
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:11px; 
+	color: #339933;
+	background-color:#E1E1E1;
+	width:95%;
+}
+.content
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #339933;
+}
+.content-small
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color: #339933;
+	font-weight:normal;
+}
+.right {
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.left {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.line {
+	margin-left :50;
+}
+.product {
+	width:50%;
+	margin:auto;
+}
+.contact {
+	width:90%;
+	margin:auto;
+}
+.detail_product {
+	width:80%;
+	margin:auto;
+}
+a:link {
+ color: #339933;
+ font-weight:bold;
+ text-decoration: none;
+}
+a:hover {
+ color: #339933;
+ text-decoration:underline;
+}
+a:visited{
+ font-family: Arial, Helvetica, sans-serif;
+ color: #339933;
+ text-decoration: none;
+}
+
+/*Amazon*/
+div.header {
+  border-top: 1px solid #d0eaf8;
+  border-bottom: 1px solid #d0eaf8;
+  width: 100%;
+  margin: 4px 0;
+}
+
+div.resultCount {
+  width: 100%;
+}
+
+div.pagn {
+  text-align: center;
+  width: 100%;
+}
+
+div.pagnBtm {
+  text-align: center;
+  width: 100%;
+}
+
+
+div.pagn .pagnCur, div.pagnBtm .pagnCur
+{
+  padding: 5px;
+  border: 0px solid #339933;
+  text-decoration: none;
+  color: #339933;
+  white-space: nowrap;
+  background: #fff;
+}
+
+div.pagn .pagnDisabled, div.pagnBtm .pagnDisabled {
+  color: #999;
+  padding: 0px 5px;
+  white-space: nowrap;
+}
+
+div.pagn .pagnMore, div.pagn .pagnSep, div.pagnBtm .pagnMore, div.pagnBtm div.pagnSep {
+  padding: 0 1px;
+}
+
+div.pagn .pagnLead, div.pagnBtm .pagnLead {
+  font-weight: bold;
+  padding: 0 5px 0 2px;
+}
+
+div.pagn a, div.pagn a:visited, div.pagnBtm a, div.pagnBtm a:visited {
+  text-decoration: none;
+  padding: 6px;
+  color: #339933;
+  white-space: nowrap;
+}
+
+div.pagn a:hover, div.pagn a:active, div.pagnBtm a:hover, div.pagnBtm a:active
+{
+  padding: 5px;
+  border: 1px solid #339933;
+  text-decoration: none;
+  color: #339933;
+  white-space: nowrap;
+  background: #fff;
+}
+div.header {
+  background: url("../img/paging_bg.gif") repeat-x;
+}
